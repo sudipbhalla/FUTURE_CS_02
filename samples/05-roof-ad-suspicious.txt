@@ -1,0 +1,28 @@
+# Sanitized sample: Deceptive roof ad
+# Source: public phishing_pot collection, file sample-10082.eml
+# Links/addresses defanged. Hidden padding text, tracking blobs and attachments removed.
+
+Authentication-Results: spf=pass (sender IP is 20.80.242.209) smtp.mailfrom=jwgmedia.com; dkim=pass (signature was verified) header.d=mysteryphotographer.com;dmarc=pass action=none header.from=jwgmedia.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of jwgmedia.com designates 20.80.242.209 as permitted sender) receiver=protection.outlook.com; client-ip=20.80.242.209; helo=mysteryphotographer.com; pr=M
+Return-Path: Tphr2XHNR3DpLzT@jwgmedia[.]com
+From: HomeBuddy Partner <6xKBO60VY40lSsi@jwgmedia[.]com>
+Reply-To: replyto@brendamurphyrealestate[.]com
+Sender: mrmxesk <6xKBO60VY40lSsi@mysteryphotographer[.]com>
+To: phishing@pot
+Subject: Is Your Roof Still Safe?
+Date: Thu, 02 Jul 2026 16:13:48 +0000
+Message-ID: <820a9285-db2c-4f8b-b36d-01c4aa033ced@SN1PEPF000397B5[.]namprd05[.]prod[.]outlook[.]com>
+X-Sender-IP: 20.80.242.209
+X-MS-Exchange-Organization-SCL: 5
+Content-Type: text/html; charset="UTF-8"
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mail; d=mysteryphotographer.com; h=Date:To:From:sender:Subject:Content-Transfer-Encoding:Content-Type:Reply-To; i=6xKBO60VY40lSsi@mysteryphotographer[.]com;  b=[trimmed]
+
+--- BODY (text extracted from HTML) ---
+One Small Leak Can Mean Big Repairs
+Most Roof Damage Goes Unnoticed
+Unsubscribe
+from all email list by replying to this email
+
+--- LINKS FOUND (defanged, unique) ---
+hxxps://storage[.]googleapis[.]com/uattdgngzvkulfk/zboqvtsjol.html#kr08z5I9jn6L6ljQEw8B/6Z/7fmaJ2nGskHkHTJHyvIJ2/Mdr_YBck/7SVR0KxIBiyR0nxir8OmEAWg/v5/P7uiUF0LL9...
+hxxps://storage[.]googleapis[.]com/uattdgngzvkulfk/zboqvtsjol.html#1tWNkeMMoafV6MhHEC4lMjfPW/n4/achjpGSzvpGuw3BySO4dWnUA/Mdr_YBck/64UWRTRAnFztxjVH51dUU/v5/DTvma...

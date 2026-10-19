@@ -1,0 +1,94 @@
+# Sanitized sample: Fake Visa World Cup prize
+# Source: public phishing_pot collection, file sample-10086.eml
+# Links/addresses defanged. Hidden padding text, tracking blobs and attachments removed.
+
+Authentication-Results: spf=none (sender IP is 95.179.194.86) smtp.mailfrom=promocoes316004777; dkim=none (message not signed) header.d=none;dmarc=none action=none header.from=promocoes316004777;
+Received-SPF: None (protection.outlook.com: promocoes316004777 does not designate permitted sender hosts)
+Return-Path: nao-responder-Visa316004777@promocoes316004777
+From: Visa <nao-responder-Visa316004777@promocoes316004777>
+Reply-To: suporte@notificacoes
+To: phishing@pot
+Subject: Copa 2026: Oportunidade de prêmio no valor de R$ 100.000,00 — ID: 373230452
+Date: Mon, 06 Jul 2026 07:27:31 +0000
+Message-ID: <7a62f181-7e18-4bc5-9311-8ead8b32a471@DM2PEPF00003FC9[.]namprd04[.]prod[.]outlook[.]com>
+X-Sender-IP: 95.179.194.86
+X-MS-Exchange-Organization-SCL: 7
+Content-Type: text/html; charset="utf-8"
+List-Unsubscribe: <mailto:unsubscribe@notificacoes?subject=unsubscribe>
+
+--- BODY (text extracted from HTML) ---
+VISA 2026
+Oficial da Copa do Mundo
+Prêmios para os verdadeiros craques
+Em compras acima de
+R$ 10,00
+com seus cartões Visa, você entra no jogo e concorre a prêmios em dinheiro, jantares no Outback, salas VIP e viagens pelo mundo:
+⚡
+R$ 500,00
+Relâmpago
+🏆
+R$ 2.000,00
+Semanais
+✈️
+Copa 2026
+Experiências VIP
+💎
+R$ 100 MIL
+Sorteio Final
+Sorteio exclusivo
+Experiências Inesquecíveis
+Jantar grátis no Outback, salas VIP e viagens internacionais com acompanhante.
+🥩
+Outback
+Jantar grátis p/ 2
+100 jantares
+🎟️
+Salas VIP
+Acesso VIP
+30 pacotes
+🌍
+Viagens
+Pelo mundo
+5 viagens
+Participação:
+01/06 a 12/07/2026
+|  Sorteio:
+16/07/2026
+📅 Calendário de Sorteios
+Cadastro de
+01/06 a 19/07/2026
+. Primeiros sorteios a partir de
+30/06/2026
+.
+1ª Fase
+01/06 a 28/06/2026
+30/06, 03/07, 06/07 e 09/07
+30x R$ 500
+2ª Fase
+01/06 a 11/07/2026
+14/07, 18/07 e 23/07
+20x R$ 2.000
+3ª Fase
+01/06 a 16/07/2026
+25/07/2026
+50x R$ 1.000
+Sorteio Experiências
+01/06 a 12/07/2026
+16/07/2026
+Outback · VIP · Viagens
+GRANDE FINAL
+01/06 a 19/07/2026
+01/08/2026
+10x 100 MIL
+Quero Participar
+Clique e garanta seu lugar. Sorteios a partir de 30/06/2026.
+Consulte o regulamento completo da promoção.
+VISA
+© 2026 Visa Worldwide. Todos os direitos reservados.
+Esta é uma mensagem promocional. A promoção é sujeita a regulamento oficial.
+Caso não queira receber mais e-mails, cancele sua inscrição.
+Enviado com segurança para clientes Visa.
+
+--- LINKS FOUND (defanged, unique) ---
+SITE
+hxxps://cop4asojateosom0-1094100152898[.]us-central1[.]run[.]app/?cid=phishing@pot@hotmail[.]com

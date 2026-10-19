@@ -1,0 +1,24 @@
+# Sanitized sample: Fake reward bait
+# Source: public phishing_pot collection, file sample-10063.eml
+# Links/addresses defanged. Hidden padding text, tracking blobs and attachments removed.
+
+Authentication-Results: spf=none (sender IP is 74.125.224.53) smtp.mailfrom=cloudmatrixtech444.onmicrosoft.com; dkim=fail (signature did not verify) header.d=send.workwithshadow.com;dmarc=none action=none header.from=cloudmatrixtech444.onmicrosoft.com;compauth=fail reason=001
+Received-SPF: None (protection.outlook.com: cloudmatrixtech444.onmicrosoft.com does not designate permitted sender hosts)
+Return-Path: max.lopez1@cloudmatrixtech444[.]onmicrosoft[.]com
+From: "Emily @ Rewards" <max.lopez1@cloudmatrixtech444[.]onmicrosoft[.]com>
+To: phishing@pot
+Subject: LAST CHANCE: Claim your confirmed reward now
+Date: Fri, 31 Jul 2026 11:59:04 -0700
+Message-ID: <CAFkWDzQqGj0zVYPU5Lt-a_r5XU8K5hJOX2DFJvAFOSkamU2U0Q@mail[.]gmail[.]com>
+X-Sender-IP: 74.125.224.53
+X-MS-Exchange-Organization-SCL: 8
+Content-Type: multipart/alternative; boundary="0000000000006885760657ecc892"
+DKIM-Signature: a=rsa-sha256; c=relaxed/relaxed; d=send.workwithshadow.com; h=Message-ID:List-Unsubscribe:List-Unsubscribe-Post:From:To:CFBL-Address:Feedback-ID:Date:Subject:Subject:From:To:CC:Date:CFBL-Feedback-ID:CFBL-Address; s=mtd1; t=1775458627; v=1;  b=[trimmed]
+
+--- BODY (text extracted from HTML) ---
+Your Deposit 5363019773has been successfully received
+
+--- LINKS FOUND (defanged, unique) ---
+hxxps://vigit88[.]com/4kTsUF26659HHSf540bpwgvugsyh124PUZIVOCQADREICF105755LDSB685291u6
+hxxp://vigit88[.]com/4RNikz26659RNAf540qocfgdziwk124OHMVYPUMUUOMDAT105755IXYX685291B6
+hxxp://vigit88[.]com/5dMuMt26659AUdI540xdejvedgfy124BQZRUXQWDRPANAK105755MPWY685291p6

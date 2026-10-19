@@ -1,0 +1,29 @@
+Delivered-To: [REDACTED-EMAIL]
+Received: by 2002:a05:6504:2d8:b0:312:1101:3de5 with SMTP id q24csp2394035ltn; Sat, 12 Sep 2026 19:44:09 -0700 (PDT)
+X-Received: by 2002:a05:6820:1849:b0:6b7:83c5:fdf1 with SMTP id 006d021491bc7-6c0bbae566bmr7574589eaf.50.1789267448798; Sat, 12 Sep 2026 19:44:08 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1789267448; cv=none; d=google.com; s=arc-20260327; b=byRsdYOk/P13aB6XJnLg8nMTxMSt5HyMf310YkvWScITn590DxKAI1WkONJOqFSg5q kQxC0pIwjYvqNnhnb/3VN9CFIN+ts7p2JemSNkg/RoVDo3pMX5QxFUtKrvCTpYVkblCr wvKZ3OIEzrwQe/HEwsglXAXwKES2HRgV+NXqNaaJ+ihgMjth98y6O6rdOzutsXTHENOT 9/MfZQRmeRkMGDka32AyU5iJ1V4JOhHSQaw4uUMAYgFTC1bzSFb5tUEjGPfwRfCmd8Xl ObZnyUZaPkZH5cbn9Hl/MwIjnPrbC1ydZHj+BGgybafjl99ocwzS1xP2Cq2cB2tWU31r TA8Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20260327; h=to:from:subject:message-id:gmsai:feedback-id:date:mime-version :dkim-signature; bh=wagr0IcgZ8Nb9t2orKnMe7I6G5NcUiUg6vog/+G/QvU=; fh=cQ272T+Xe1oyWgEOqs6JQ10aY5VqZNv4Ynh/zP7T3VU=; b=orkPC9FH+ubBrG+hoqRPkTy7DRbfwn9r63fXIQ6d9SOmV4WA6TLE5GZgEiF0utheL2 WGwQClq17P4TarcVklWAoihA2ZmhxLAoRCdFg7/0jp1xgvARzngDkksGD5TE+b6VONkf ZcBI2SUS7M8EgNULxBa5jGmbcJ3QnNTx9PRlxH2OHk1F0PEVKnFXL89CeO1CVZpzvq0T T/RBGHLZMKpNBwnGo+ESVqt8nBl+O8X6P+UHv5BrMVxjVAV/Zp2zfoI2l9lje5R8mwkw CskTHu2cJNhEqKzxcskEDfNXAJkD000Eq64oOF7o/qewqGrSVeV2U/IATgCVRTO+VPFy kqVQ==; dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com; dkim=pass header.i=@accounts.google.com header.s=20251104 header.b=ktnZqOv8; spf=pass (google.com: domain of 3-a2maggtaakwx-0nyu7jllx3w21.pxxpun.lxv@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3-A2maggTAAkwx-0nyu7jllx3w21.pxxpun.lxv@gaia.bounces.google.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com; dara=pass header.i=@gmail.com
+Return-Path: <3-A2maggTAAkwx-0nyu7jllx3w21.pxxpun.lxv@gaia.bounces.google.com>
+Received: from mail-sor-f73.google.com (mail-sor-f73.google.com. [209.85.220.73]) by mx.google.com with SMTPS id 586e51a60fabf-47df41ab28fsor3018630fac.0.2026.09.12.19.44.08 for <[REDACTED-EMAIL]> (Google Transport Security); Sat, 12 Sep 2026 19:44:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 3-a2maggtaakwx-0nyu7jllx3w21.pxxpun.lxv@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) client-ip=209.85.220.73;
+Authentication-Results: mx.google.com; dkim=pass header.i=@accounts.google.com header.s=20251104 header.b=ktnZqOv8; spf=pass (google.com: domain of 3-a2maggtaakwx-0nyu7jllx3w21.pxxpun.lxv@gaia.bounces.google.com designates 209.85.220.73 as permitted sender) smtp.mailfrom=3-A2maggTAAkwx-0nyu7jllx3w21.pxxpun.lxv@gaia.bounces.google.com; dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accounts.google.com; dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=accounts.google.com; s=20251104; t=1789267448; x=1789872248; dara=google.com; h=content-type:to:from:subject:message-id:gmsai:feedback-id:date :mime-version:from:to:cc:subject:date:message-id:reply-to :content-type; bh=wagr0IcgZ8Nb9t2orKnMe7I6G5NcUiUg6vog/+G/QvU=; b=ktnZqOv8n7tRLsn6HL93HJl/nZSYLdt0BYrgEMV+qRHf/LchyhoZlN2BFWKuAOl/W7 r46Qg2gWZ2DX5hb0Ryjy6cCwcqFXDZcVfGD9H3xHjGU8wnB7ujEpt425HNlwGUM65+5o eMk5Gh3gFM8rFMRFrzL2+9tlbFnv9azrD+Rc3aV0FXRwQWTAx4hvky3MFBMGHM9fFi5c 7e8qRbbT2bYsy9EqsDaonEAQmkPR9Kv5NiPWi07BeSdd7OXdhHx1mhZAS1pCUdDLJ0v1 AIp7JrSvMBy1LG1uCXEa0+O9Oi8P6A2qpWW5yG4csF8x1ewrZHJQwTmSQaUvCZ9TJvEy ioyw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=1e100.net; s=20251104; t=1789267448; x=1789872248; h=content-type:to:from:subject:message-id:gmsai:feedback-id:date :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id :reply-to:content-type; bh=wagr0IcgZ8Nb9t2orKnMe7I6G5NcUiUg6vog/+G/QvU=; b=LTXc2oCL2Ww3V/y16LZHyHqt1vAjCkt4OweNno5kDamPbyzklBiRYmQxDEGzjRAxI9 pcsNtDNrYStBQMzxRZNc5FZe5BwqwL//i+wT1dUUyARGdKNfF3OY92p/LfDJUafpLH9f 5JWoDfv3IiSx8oObW1LLQinbrgT1aASpE2v8EB75PIp2+CpIxtbYn+GG0HAQ2zI8r8H9 OfjRVeFuE44qC80drejJEbDdHVsANnpLtmwCOSKl3ajqTAoiIG+vFrv5Vp10GJ0kbmSx KzUX2pviEv/OgXftYcrjqMujdwro7NQVC7+AXbQ4luiVxmzqyjauYdtDmRKQXjvkJRph eTaw==
+X-Gm-Message-State: AFuF++n+vlyhPAEawg39HD8MEmrujz7bPg0IS9bvijYBVHPpEowhx/lO Kv8mQTPxVjDZf7TpplWXlXoNI6QvubdW2P2Z4e4ZGs+01m0iVXPYKtBCb8YejWi022GqKTu2OC1 iAavRySoT3t0LV15NBsUblD14aklEoiHwWxZ/oEA=
+MIME-Version: 1.0
+X-Received: by 2002:a05:6820:61a:b0:6c2:e131:6760 with SMTP id 006d021491bc7-6c2e13169a0mr1753789eaf.3.1789267448395; Sat, 12 Sep 2026 19:44:08 -0700 (PDT)
+Date: Sun, 13 Sep 2026 02:44:05 GMT
+X-Account-Notification-Type: 1
+Feedback-ID: 1:account-notifier
+gmsai: true
+X-Google-Notification-Metadata: CgISAA
+X-Notifications: eedfb23add5e0000
+X-Notifications-Bounce-Info: [REDACTED]
+Message-ID: <w3vKz4Tg6XDHgT2MBlbJwA@notifications.google.com>
+Subject: Security alert
+From: Google <no-reply@accounts.google.com>
+To: [REDACTED-EMAIL]
+Content-Type: multipart/alternative; boundary="000000000000ab798f065b544a23"
+
+[Body removed: contained personal data. Headers only.]

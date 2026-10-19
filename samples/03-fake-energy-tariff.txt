@@ -1,0 +1,34 @@
+# Sanitized sample: Fake energy tariff refund
+# Source: public phishing_pot collection, file sample-10085.eml
+# Links/addresses defanged. Hidden padding text, tracking blobs and attachments removed.
+
+Authentication-Results: spf=fail (sender IP is 209.85.208.48) smtp.mailfrom=infowebtech77.onmicrosoft.com; dkim=fail (signature did not verify) header.d=send.workwithshadow.com;dmarc=none action=none header.from=infowebtech77.onmicrosoft.com;compauth=fail reason=001
+Received-SPF: Fail (protection.outlook.com: domain of infowebtech77.onmicrosoft.com does not designate 209.85.208.48 as permitted sender) receiver=protection.outlook.com; client-ip=209.85.208.48; helo=mail-ed1-f48.google.com;
+Return-Path: emery.carter@infowebtech77[.]onmicrosoft[.]com
+From: Klantenservice Energie <emery.carter@infowebtech77[.]onmicrosoft[.]com>
+To: phishing@pot
+Subject: Urgent: Tariefverlaging niet toegepast (bespaar €700)
+Date: Fri, 31 Jul 2026 12:27:45 -0500
+Message-ID: <CAKOYemKNF7bY_hi9KpBNNNg-YGkpO-3BPofsMzr6AibmjpFKjA@mail[.]gmail[.]com>
+X-Sender-IP: 209.85.208.48
+X-MS-Exchange-Organization-SCL: 9
+Content-Type: multipart/alternative; boundary="000000000000d36f590657eb81d1"
+DKIM-Signature: a=rsa-sha256; c=relaxed/relaxed; d=send.workwithshadow.com; h=Message-ID:List-Unsubscribe:List-Unsubscribe-Post:From:To:CFBL-Address:Feedback-ID:Date:Subject:Subject:From:To:CC:Date:CFBL-Feedback-ID:CFBL-Address; s=mtd1; t=1775458627; v=1;  b=[trimmed]
+
+--- BODY (text extracted from HTML) ---
+DOSSIER: ENERGIE 2026
+Status:
+Urgent
+Geachte ontvanger, u betaalt €700 te veel voor uw energierekening.
+Uit onze database blijkt dat u nog geen gebruik heeft gemaakt van de recente tariefverlagingen. Dit betekent dat u momenteel onnodig veel geld betaalt aan uw energiemaatschappij.
+Geschat verlies per jaar:
+€ 700,- (te veel betaald)
+U heeft vandaag de kans om dit direct recht te zetten. Binnen 30 seconden is uw contract kosteloos aangepast naar een eerlijker tarief.
+CLAIM UW €700 BESPARING
+Dit is een geautomatiseerd bericht naar aanleiding van uw dossier.
+Afmelden voor dossier updates
+
+--- LINKS FOUND (defanged, unique) ---
+hxxps://vigit99[.]com/4iXRcm26646qHIM1835zovfklkbjc107BMWTLBBGGJDUNVE76086YZRC691122q6
+hxxps://vigit99[.]com/rd/4GLplS26646oEyT1835rpyqidtfny107DJIGGFTPABZUBQL76086GHAP691122b6
+hxxps://vigit99[.]com/rd/5WqnGJ26646QxtL1835myclpdbvwz107ITRSFBQWSCBXUHJ76086ZOIO691122d6
